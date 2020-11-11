@@ -1,8 +1,9 @@
-
 * {
     text-decoration: none !important;
 }
-.custom-input-group input,button{
+
+.custom-input-group input,
+button {
     font-size: 15px !important;
     box-shadow: none !important;
 }
