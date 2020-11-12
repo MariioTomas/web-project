@@ -17,3 +17,15 @@ button {
 .custom-header a:hover {
     color: #f07a1b !important;
 }
+
+.custom-header-none a {
+    color: #8e8e8e !important;
+    transition: all ease 0.3s !important;
+    font-size: 19px !important;
+    margin-top: 30px !important;
+}
+
+.custom-header-none a:hover {
+    color: #f07a1b !important;
+
+}
