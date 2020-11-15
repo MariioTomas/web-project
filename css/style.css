@@ -2,10 +2,12 @@
     text-decoration: none !important;
 }
 
-.custom-input-group input,button {
-	font-size: 15px !important;
-	box-shadow: none !important;
+.custom-input-group input,
+button {
+    font-size: 15px !important;
+    box-shadow: none !important;
 }
+
 .custom-header a {
     color: #8e8e8e !important;
     font-size: 14px !important;
@@ -92,6 +94,7 @@
     border: none !important;
 }
 
+/* style slider*/
 .custom-container-fluid {
     position: relative !important;
     background-blend-mode: overlay !important;
@@ -107,4 +110,100 @@
     background-color: #d61b1b !important;
     font-size: 45px !important;
     padding: 10px !important;
+}
+
+/* end slider*/
+
+/*start products*/
+.custom-border::before {
+    content: '';
+    width: 100%;
+    height: 2px;
+    display: block;
+    background-color: #4ec51c;
+    position: relative;
+    top: 35px;
+}
+
+.custom-col {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
+}
+
+.custom-card .sblayer {
+    position: relative !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.custom-card .overlay {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    height: 100% !important;
+    width: 100% !important;
+    opacity: 0 !important;
+    visibility: hidden !important;
+    transition: all ease-out 0.3s !important;
+    border-radius: 2px;
+}
+
+.custom-card:hover .overlay {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.custom-card .overlay .btn {
+    position: absolute !important;
+    top: 60% !important;
+    right: 50% !important;
+    transform: translate(50%, -50%) scale(0) !important;
+    transition: all ease-out 0.3s !important;
+    border-radius: 35px !important;
+    font-size: 13px !important;
+}
+
+.custom-card:hover .overlay .btn {
+    transform: translate(50%, -50%) scale(1) !important;
+}
+
+.custom-card .overlay .badge {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: all ease-out 0.3s 0.1s;
+    border-radius: 35px;
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+.custom-card:hover .overlay .badge {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.custom-card-body a {
+    color: #000 !important;
+    font-size: 16px !important;
+    transition: all ease 0.3s !important;
+}
+
+.custom-card-body a:hover {
+    color: #f07a1b !important;
+}
+
+.card-footer small .badge {
+    font-weight: lighter !important;
+}
+
+.card .card-footer div del {
+    color: #cdcdcd !important;
+    font-size: 14px !important;
+    font-weight: lighter !important;
+    text-decoration: line-through !important;
+}
+
+.c-small {
+    word-spacing: 6px !important;
 }
