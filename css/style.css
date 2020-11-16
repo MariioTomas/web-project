@@ -225,4 +225,20 @@ button {
 .custom-small {
     color: #039be5 !important;
     border-bottom: 1px solid #039be5 !important;
+    padding: 6px !important;
+
+}
+
+.custom-ul li a {
+    font-size: 13px !important;
+    color: #000 !important;
+    transition: all ease 0.3s !important;
+}
+
+.custom-ul li a:hover {
+    color: #f07a1b !important;
+}
+
+.customs-icon {
+    font-size: 20px !important;
 }
