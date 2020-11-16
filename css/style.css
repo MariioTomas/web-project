@@ -207,3 +207,22 @@ button {
 .c-small {
     word-spacing: 6px !important;
 }
+
+/*style Newsletters*/
+.custom-containerfluid {
+    width: 100% !important;
+    background-blend-mode: overlay !important;
+    background-image: url("../images/tile.jpg") !important;
+    background-color: rgba(49, 49, 49) !important;
+}
+
+/*style footer*/
+.custom-ul li {
+    color: #039be5 !important;
+
+}
+
+.custom-small {
+    color: #039be5 !important;
+    border-bottom: 1px solid #039be5 !important;
+}
