@@ -251,7 +251,18 @@ button {
 .mytable tr:nth-last-of-type(odd) {
     background-color: #3f5960 !important;
 }
+
 .mytable td {
     padding: 25px !important;
     border: none !important;
+}
+
+.custom-fa a {
+    color: #cdcdcd !important;
+    transition: all ease 0.3s !important;
+    font-size: 20px !important;
+}
+
+.custom-fa a:hover {
+    color: #f07a1b !important;
 }
