@@ -242,3 +242,16 @@ button {
 .customs-icon {
     font-size: 20px !important;
 }
+
+/*style info products*/
+.mytable {
+    background-color: #425e65 !important;
+}
+
+.mytable tr:nth-last-of-type(odd) {
+    background-color: #3f5960 !important;
+}
+.mytable td {
+    padding: 25px !important;
+    border: none !important;
+}
