@@ -266,3 +266,13 @@ button {
 .custom-fa a:hover {
     color: #f07a1b !important;
 }
+
+.custom-ul li div {
+    background-color: #f1e9e9 !important;
+    border: 1px solid rgba(0, 0, 0, 0.2) !important;
+    color: #000 !important;
+}
+.custom-ul li div p {
+    color: #000080 !important;
+    font-size: smaller !important;
+}
